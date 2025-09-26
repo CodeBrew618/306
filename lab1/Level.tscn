@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgrx2gffatx10"]
+
+[ext_resource type="Script" path="res://level.gd" id="1_kv3eq"]
+[ext_resource type="PackedScene" uid="uid://cc0rs3cemssq8" path="res://player.tscn" id="2_mg7ke"]
+[ext_resource type="PackedScene" uid="uid://boyqoaco5ydr7" path="res://zombie.tscn" id="3_gfi3l"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_kv3eq")
+
+[node name="Player" parent="." instance=ExtResource("2_mg7ke")]
+position = Vector2(1023, 588)
+
+[node name="Pickup" parent="." instance=ExtResource("3_gfi3l")]
+position = Vector2(345, 388)
+
+[node name="Pickup2" parent="." instance=ExtResource("3_gfi3l")]
+position = Vector2(454, 148)

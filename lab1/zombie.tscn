@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://boyqoaco5ydr7"]
+
+[ext_resource type="Texture2D" uid="uid://sya7nv67l7vo" path="res://icon.svg" id="1_320le"]
+[ext_resource type="Script" path="res://pickup.gd" id="1_valtt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5uvrq"]
+size = Vector2(120, 124)
+
+[node name="Pickup" type="Area2D"]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_valtt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(0.687293, 0.539216, 0.120076, 1)
+texture = ExtResource("1_320le")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_5uvrq")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
