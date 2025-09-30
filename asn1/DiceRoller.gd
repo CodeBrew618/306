@@ -27,18 +27,19 @@ func set_n_side(n:int) -> void:
 	n_Side = n
 	
 ##Return the number of dices.
-func get_n_dice(n:int) -> int:
+func get_n_dice() -> int:
 	return n_Dice
 
 ##Return the number of dice's side
-func get_n_side(n:int) -> int:
+func get_n_side() -> int:
 	return n_Side
 	
 	
 ##Simulates a roll and returns the results in an array.
 ##Return wiht an array that contains the result of each dices.	
 func get_roll() -> Array[int]:
-	pass
+	var result: Array[int] = []
+	return result
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -46,5 +47,5 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
+#func _process(delta: float) -> void:
+	#pass

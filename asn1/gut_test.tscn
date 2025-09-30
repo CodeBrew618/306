@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://vgm8265qvjv1"]
+
+[ext_resource type="Script" uid="uid://be74kidjb0n4x" path="res://test_DiceRoller.gd" id="1_rthfr"]
+
+[node name="GutTest" type="Node"]
+script = ExtResource("1_rthfr")
+metadata/_custom_type_script = "uid://cnup2nbj45r4s"
