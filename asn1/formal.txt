@@ -1,0 +1,26 @@
+Balatro
+
+1. Players
+    Balatro is a single player card turn base game.
+    The opponent is AI and controlled by the machine.
+2. Objectives
+    The main goal is to collect different power cards to unlock new abilities. After each match, the player is required to reach a set number of points in order to progress. For example, earning enough in-game currency allows the player to purchase more items in the shop.
+3. Rules
+    Balatro is a roguelike poker game. Players play standard poker hands to score points. The core challenge comes from special items like Jokers and spells, which modify the rules and allow for powerful strategies. You must meet the score requirement within a limited number of hands to win.
+4. Outcomes
+    The outcomes are straightforward: if the total score is over the requirement, then the player wins; otherwise, the opponent wins. The player is allowed to retry the same level an unlimited number of times. Players may also unlock new decks, jokers, or achievements, making success feel rewarding even if an individual run ends in failure.
+5. Procedures
+    Balatro’s gameplay is built around a two-part structure.
+        Inside a round: player will play poker hands, discard cards to improve your draw, and use your special abilities.
+        Between rounds: players will get chance to shop for upgrades, choose rewards, and decide what to do next.
+    This repeating pattern of playing and preparing gives the game its distinct rhythm and drives both your short-term tactics and long-term planning.
+6. Resources
+    Resources include cards, jokers, items, in-game money, and a limited number of discards or plays per round.
+7. Conflicts
+    The main conflict is between the player’s limited resources and the increasing score requirements as the game progresses. Other conflicts include deck-building decisions and shop purchases. The player needs a strong strategy to figure out how to spend resources wisely.
+8. Boundaries
+    Player can only equipes the limited amount of cards in the deck and during the game play, players are only given the fixed turn limited to pass the challenge and the ruleslimits player actions to valid moves.
+
+
+
+    
