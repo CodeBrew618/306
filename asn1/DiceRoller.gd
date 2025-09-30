@@ -45,11 +45,7 @@ func get_roll() -> Array[int]:
 		result.append(single_roll)
 	return result
 	
-func show_result() -> void:
-	var sum = 0
-	for i in result:
-		sum = sum + i
-	print("Your toal rolling result = " + sum)
+
 	
 
 # Called when the node enters the scene tree for the first time.
