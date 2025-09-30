@@ -10,6 +10,7 @@ class_name DiceRoller
 var n_Dice: int
 # Number of sides on each dice
 var n_Side: int
+var result: Array[int] = []
 
 ## Constructor: Initializes a new DiceRoller instance.
 ## @param n_d The number of dice to be rolled.
@@ -38,8 +39,18 @@ func get_n_side() -> int:
 ##Simulates a roll and returns the results in an array.
 ##Return wiht an array that contains the result of each dices.	
 func get_roll() -> Array[int]:
-	var result: Array[int] = []
+	result.clear()
+	for i in range(n_Dice):
+		var single_roll = randi_range(1,n_Side)
+		result.append(single_roll)
 	return result
+	
+func show_result() -> void:
+	var sum = 0
+	for i in result:
+		sum = sum + i
+	print("Your toal rolling result = " + sum)
+	
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
