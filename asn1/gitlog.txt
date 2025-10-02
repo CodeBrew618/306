@@ -1,0 +1,59 @@
+commit b72224a7cfa3a060b1f5d1765ad94caeb2169900
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Oct 2 16:04:26 2025 -0600
+
+    Adding more documentation.
+
+commit 0f1bad606e9f99fde18387878286a4bf0c99f8d3
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Tue Sep 30 15:38:37 2025 -0600
+
+    Explaining 8 elements are used in Balatro.
+
+commit 1d98e846faee8fd566bd5cde2847b41c40604e9f
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Tue Sep 30 13:35:24 2025 -0600
+
+    initial the txt file for question 2
+
+commit 7e950b08afd2d5cb2e6590d5756050aa939d605d
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Tue Sep 30 13:24:07 2025 -0600
+
+    Implemented all the gut test method
+
+commit d0de1c4ffba67adf74237dccc0395fe668c6c42e
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Tue Sep 30 12:11:45 2025 -0600
+
+    successfully set up gut and implemented constructor test
+
+commit 40a592437a911b47eed8b6504bebf4d7798272e4
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Fri Sep 26 10:12:07 2025 -0600
+
+    clean the branch
+
+commit 5b5da2f3640f8af2fb81542b07a50e7e2853cafa
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Fri Sep 26 10:08:39 2025 -0600
+
+    add documentations for the methods, described the purpose, usage and return values.
+
+commit 5afd4db7a91ad0d4b18a40448d34ece6373f12f0
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Fri Sep 26 09:53:29 2025 -0600
+
+    implement the Dice class and empty stubs for the class
+
+commit d3dd605aeeda7abd6500364d30ca471f10de1ef2
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Fri Sep 26 09:37:51 2025 -0600
+
+    init asn1 folder
+
+commit 634cceb6013e2235d5e3be98d87fb0342366af0f
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Fri Sep 26 09:15:31 2025 -0600
+
+    Initial commit

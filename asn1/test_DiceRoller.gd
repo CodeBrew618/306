@@ -1,6 +1,6 @@
 ## DiceRoller Unit Tests
 ## ----------------------
-## This test suite uses GUT (Godot Unit Test framework) to validate the DiceRoller class.
+## This test suite uses GUT (Godot Unit Test framework, work with Godot version 4.5) to validate the DiceRoller class.
 ## It checks constructor behavior, getters/setters, rolling functionality,
 ## and the dice results.
 
