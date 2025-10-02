@@ -10,6 +10,7 @@ class_name DiceRoller
 var n_Dice: int
 # Number of sides on each dice
 var n_Side: int
+# The list that stores all the rolling result
 var result: Array[int] = []
 
 ## Constructor: Initializes a new DiceRoller instance.
@@ -19,11 +20,13 @@ func _init(n_d:int, n_s:int) -> void:
 	n_Dice = n_d
 	n_Side = n_s
 
-##Sets the number of total dices 	
+##Sets the number of total dices 
+## @param n: integer , number of dice you want to roll	
 func set_n_dice(n:int) -> void:
 	n_Dice = n
 	
 ##Sets the number of dice sides with int.	
+## @param n: integer , the side of the dice.
 func set_n_side(n:int) -> void:
 	n_Side = n
 	
@@ -51,8 +54,3 @@ func get_roll() -> Array[int]:
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta: float) -> void:
-	#pass
