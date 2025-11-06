@@ -30,7 +30,7 @@ corner_radius_bottom_left = 8
 script = ExtResource("1_vsvp5")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
-position = Vector2(375, 201)
+position = Vector2(453, 296)
 tile_set = SubResource("TileSet_xylue")
 script = ExtResource("3_8rbpu")
 
@@ -43,10 +43,10 @@ theme_override_font_sizes/font_size = 24
 text = "Current Turn: Player - X"
 
 [node name="MessagePanel" type="Panel" parent="."]
-offset_left = 448.0
-offset_top = 222.0
-offset_right = 748.0
-offset_bottom = 372.0
+offset_left = 445.0
+offset_top = 431.0
+offset_right = 745.0
+offset_bottom = 581.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
 
 [node name="MessageLabel" type="Label" parent="MessagePanel"]
@@ -56,10 +56,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -100.0
-offset_top = -40.0
-offset_right = 100.0
-offset_bottom = -10.0
+offset_left = -94.0
+offset_top = -36.0
+offset_right = 106.0
+offset_bottom = -6.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 20

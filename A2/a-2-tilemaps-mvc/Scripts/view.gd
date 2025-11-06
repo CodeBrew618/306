@@ -13,8 +13,17 @@ const TILE_O = Vector2i(0, 0)
 var model: Model
 
 func _ready() -> void:
-	# Initialize the board visually
 	initialize_visual_board()
+
+func _input(event: InputEvent) -> void:
+	if event is InputEventMouseButton:
+		if event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+			var local_pos = to_local(event.position)
+			var tile_coords = local_to_map(local_pos)
+			
+			if tile_coords.x >= 0 and tile_coords.x < 3 and tile_coords.y >= 0 and tile_coords.y < 3:
+				if model:
+					model.make_move(tile_coords.x, tile_coords.y)
 
 
 
@@ -41,5 +50,7 @@ func on_board_updated(x: int, y: int, player: int) -> void:
 func on_game_reset() -> void:
 	initialize_visual_board()
 
-func world_to_board(world_pos: Vector2) -> Vector2i:
-	return local_to_map(to_local(world_pos))
+func world_to_board(screen_pos: Vector2) -> Vector2i:
+	var local_pos = to_local(screen_pos)
+	var tile_coords = local_to_map(local_pos)
+	return tile_coords

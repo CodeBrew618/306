@@ -12,37 +12,21 @@ var view: View
 func _ready() -> void:
 	model = Model.new()
 	
-	# Get reference to View
 	view = $TileMapLayer as View
 	view.model = model
 	
-	# Connect model signals to view (Observer pattern)
 	model.board_updated.connect(view.on_board_updated)
 	model.game_reset.connect(view.on_game_reset)
 	
-	# Connect model signals to controller UI updates
 	model.turn_changed.connect(on_turn_changed)
 	model.game_won.connect(on_game_won)
 	model.game_draw.connect(on_game_draw)
 	model.game_reset.connect(on_game_reset)
 	
-	# Connect button signal
 	new_game_button.pressed.connect(on_new_game_pressed)
 	
-	# Initialize UI
 	update_turn_label()
 	message_panel.hide()
-
-func _input(event: InputEvent) -> void:
-	if event is InputEventMouseButton:
-		if event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
-			handle_click(event.position)
-
-func handle_click(world_pos: Vector2) -> void:
-	# Convert world position to board coordinates
-	var board_pos = view.world_to_board(world_pos)
-	
-	model.make_move(board_pos.x, board_pos.y)
 
 func on_turn_changed(current_player: int) -> void:
 	update_turn_label()
