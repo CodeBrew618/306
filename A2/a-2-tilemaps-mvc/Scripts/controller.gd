@@ -1,5 +1,11 @@
 class_name Controller
 extends Node2D
+
+## Controller - MVC Coordinator
+## This class connects the Model and View together. It listens for changes
+## in the game state and updates the UI elements (turn label, game messages).
+## It also handles button clicks and coordinates communication between components.
+
 # init MVC Components
 var model: Model
 var view: View

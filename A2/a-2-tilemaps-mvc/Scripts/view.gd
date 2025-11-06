@@ -1,6 +1,11 @@
 class_name View
 extends TileMapLayer
 
+## View - Visual Display
+## This class handles the visual representation of the game board using a TileMap.
+## It displays X and O symbols on the board, captures mouse clicks on tiles,
+## and updates the display when the game state changes.
+
 # Constants for tile IDs (based on spritesheet)
 # Column 0: O tile (circle)
 # Column 1: X tile (red X)

@@ -1,6 +1,11 @@
 class_name Model
 extends RefCounted
 
+## Model - Game Logic and Data
+## This class manages the Tic-Tac-Toe game state, including the board,
+## current player, and game rules. It validates moves, checks for wins/draws,
+## and notifies observers when the game state changes using signals.
+
 # Signals for Observer pattern
 signal board_updated(x: int, y: int, player: int)
 signal turn_changed(current_player: int)
