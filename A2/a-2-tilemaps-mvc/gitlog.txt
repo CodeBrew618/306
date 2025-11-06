@@ -1,0 +1,59 @@
+commit 18c4124bcdd54eee22e40046d7f3ba5acd565517
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 13:03:05 2025 -0600
+
+    Update UML diagram
+
+commit 1289f382e88a66fd46a7eb478fa1b57c0ebbf42e
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 12:05:28 2025 -0600
+
+    Finalizing & debugg the input issue on the board.
+
+commit 50db6ac4cc085544762d9fae6d454cdb71297013
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 11:30:41 2025 -0600
+
+    add ignore file
+
+commit 3d4b340cf0ff2e1ed654e4c5b1956eee0242a629
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 11:27:45 2025 -0600
+
+    Implementing GUT test script for model.gd
+
+commit ebfe61e574612a65d9757b137c19bda4db94f9f7
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 10:52:40 2025 -0600
+
+    Update the view class and script.
+
+commit 9367da69a660ee7c64392f86e17b106efdf385c0
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 10:48:00 2025 -0600
+
+    Implementing the basic game model and game control
+
+commit 643640ff3a8d4151dade63715e4163b890e4b192
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 09:36:57 2025 -0600
+
+    Add GUT to the project
+
+commit cea3391d4e8bd94bff4799fee6b31e81ec1a6cf3
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 09:33:56 2025 -0600
+
+    set up the game UI panel
+
+commit 8ecf2949c418ee0c3977e21a67fea44a58b4d404
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 08:56:12 2025 -0600
+
+    Initial MVC structure
+
+commit c86ffafdfd3d1a83064f0ec3d34d45b7041be249
+Author: Charles L <charlesliu618@gmail.com>
+Date:   Thu Nov 6 08:33:51 2025 -0600
+
+    initial branch for a2

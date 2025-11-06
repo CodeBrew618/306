@@ -86,7 +86,7 @@ func check_win(player: int) -> bool:
 
 func check_draw() -> bool:
 	##
-	"""Check if the game is a draw (board full with no winner)"""
+	##Check if the game is a draw (board full with no winner)
 	##
 	for y in range(3):
 		for x in range(3):
